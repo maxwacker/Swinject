@@ -6,8 +6,6 @@ let package = Package(
     name: "Swinject",
     products: [
         .library(name: "Swinject",
-                 targets: ["Swinject"]),
-        .library(name: "Swinject-Dynamic",
                  type: .dynamic,
                  targets: ["Swinject"]),
     ],
